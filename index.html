@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Copyable Python Code for IOT</title>
+</head>
+<body>
+    <h1>Copy meeee</h1>
+    <p>Copy and run this code in your Python environment:</p>
+
+    <pre><code>x = input("Enter an integer between 0 and 1024 -- ")
+x = int(x)
+a = 0
+b = 1024
+test = True
+
+if x == 0:
+    print("Your number is 0, thank you for playing.")
+    test = False
+elif x == 1024:
+    print("Your number is 1024, thank you for playing.")
+    test = False
+
+while test == True:
+    m = int((a + b) / 2)
+    if m == x:
+        print("Your number is", m, ", thank you for playing.")
+        break
+    elif m < x:
+        a = m
+    else:
+        b = m
+</code></pre>
+
+</body>
+</html>
